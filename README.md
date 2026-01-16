@@ -1,6 +1,6 @@
 # NapCat-Docker
 
-[DockerHub](https://hub.docker.com/r/mlikiowa/napcat-docker)
+[DockerHub](https://hub.docker.com/r/thanatos79/napcat-docker)
 
 ## Support Platform/Arch
 - [x] Linux/Amd64
