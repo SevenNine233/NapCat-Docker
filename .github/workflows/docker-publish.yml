@@ -22,7 +22,7 @@ jobs:
       # Fork from https://github.com/koishijs/boilerplate/blob/master/.github/workflows/docker.yml
       - name: Run buildx and push
         env:
-          DOCKER_REPO: thanatos79/napcat-docker
+          DOCKER_REPO: sevennine233/napcat-docker
           GITHUB_REPO: NapNeko/NapCatQQ
         run: |
           TAG=$(curl -sSL -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/NapNeko/NapCatQQ/releases/latest" | jq -r '.tag_name')
